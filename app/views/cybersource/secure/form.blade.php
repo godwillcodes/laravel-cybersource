@@ -54,7 +54,7 @@ $cancel_page = route('cybersource.payment.cancel');
         </div>
     </fieldset>
 
-    <input type="hidden" name="override_custom_cancel_page" value="<?php echo $response_page; ?>">
+    <input type="hidden" name="override_custom_cancel_page" value="<?php echo $cancel_page; ?>">
     <input type="hidden" name="override_custom_receipt_page" value="<?php echo $response_page; ?>">
 
     <!-- MDD START -->
